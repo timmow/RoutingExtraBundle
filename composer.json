@@ -16,13 +16,17 @@
       {
 	"type": "vcs",
 	"url": "http://github.com/timmow/monolog"
+      },
+      {
+	"type": "vcs",
+	"url": "http://github.com/timmow/MonologBundle"
       }
     ],
     "require": {
         "php": ">=5.3.3",
         "symfony-cmf/routing": "1.0.*",
         "symfony/framework-bundle": ">=2.1,<2.3-dev",
-        "symfony/monolog-bundle": ">=2.1,<2.3-dev"
+        "symfony/monolog-bundle": "dev-monolog-forked"
     },
     "require-dev": {
         "symfony/class-loader": ">=2.1,<2.3-dev",
